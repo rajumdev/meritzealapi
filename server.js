@@ -9,7 +9,7 @@ app.listen(port);
 connection.init();
 
 app.get("/", function(req, res , next){
-  res.send("Welcome to meritzeal Server");
+  res.send("Welcome to meritzeal Server...");
 });
 
 app.use(function(req , res , next){
